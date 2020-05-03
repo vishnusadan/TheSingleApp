@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name">TheSingleApp</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_matches">Matches</string>
+    <string name="menu_nearby">Near By</string>
+    <string name="menu_message">Message</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_images">Upload Images</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_view">View</string>
+    <string name="menu_request">Friends</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_flirt">Flirts</string>
+    <string name="menu_photolike">Photo Like</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_aboutus">About Us</string>
+    <string name="menu_termscon">Terms And Condition</string>
+    <string name="menu_policy">Privacy And Policy</string>
+    <string name="menu_contactus">FeedBack</string>
+    <string name="menu_premium">Premium</string>
+    <string name="default_notification_channel_id">TheSingleApp</string>
+
+
+    //Login Screen
+    <string name="forgetpassword">Forgot Password</string>
+    <string name="login">LOGIN</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="signup">Sign up</string>
+    <string name="signupcap">SIGN UP</string>
+    <string name="password">Password</string>
+    <string name="phonenumber">Phone Number or E-Mail</string>
+    <string name="phonenumber1">Phone Number</string>
+    <string name="otp">OTP</string>
+    <string name="gmail"><u>Gmail login</u></string>
+
+
+    //Sign Up Screen
+    <string name="confirmpassword">Confirm Password</string>
+
+    //Sign Up screen 2
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="seekingfor">Seeking For</string>
+    <string name="dateofbirth">Date Of Birth</string>
+
+
+    //Request Screen
+    <string name="Requests">Requests</string>
+    <string name="irequests">Sent Requests</string>
+
+    //View Screen
+    <string name="ihadviewed">I Had Viewed</string>
+    <string name="viewedme">Viewed Me</string>
+    <string name="myfavorite">My Favorite</string>
+    <string name="favoritedme">Favorited Me</string>
+    <string name="flirtedme">Flirted Me</string>
+    <string name="ihadflirt">I Had Flirt</string>
+    <string name="ilikedphoto">I Liked Photo</string>
+    <string name="likegivenphoto">Like Given Photo</string>
+
+    //Verification Screen
+    <string name="resendotp"><u>Resend OTP</u></string>
+    <string name="verification">Verification</string>
+    <string name="verification2">Please Contact Single</string>
+
+    //Forget Password Screen
+    <string name="contentforpass">Please give the Correct Email Id for verification and you can reset the password from Email </string>
+    <string name="forgetpasswordcaps">Forgot Password</string>
+
+    //Change Password Screen
+    <string name="changepassword">Change Password</string>
+    <string name="oldPassword">Old Password</string>
+
+    //Search Screen
+    <string name="search">Search</string>
+
+    //Message Screen
+    <string name="message">Messages</string>
+    <string name="friends">Friends</string>
+    <string name="blocked">Block</string>
+
+    //Filter Screen
+    <string name="filter">Filter</string>
+    <string name="city">City</string>
+    <string name="age">Age</string>
+    <string name="fromage">From Age</string>
+    <string name="toage">To Age</string>
+    <string name="onlineuser">Online Users Only</string>
+    <string name="premiumusers">Premium Users Only</string>
+
+
+    //Premium Screen
+    <string name="premium">Premium</string>
+    <string name="orders">Orders</string>
+    <string name="premiumdetails">Premium Details</string>
+
+    //Others Profile Screen
+    <string name="about">About</string>
+    <string name="hobby">Hobby</string>
+    <string name="images">Images</string>
+    <string name="flirt">Flirt</string>
+    <string name="likes">Likes</string>
+    <string name="favourites">Favorites</string>
+
+    //Profile Screen
+    <string name="details">Details</string>
+    <string name="deleteaccount">Delete Account</string>
+    <string name="update">Update</string>
+    <string name="edit">Edit</string>
+    <string name="profiledetails">Profile Details</string>
+    <string name="lookingfor">Looking For</string>
+    <string name="religion">Religion</string>
+    <string name="occupation">Occupation</string>
+    <string name="retired">Retired</string>
+    <string name="martialstatus">Martial Status</string>
+    <string name="numberofchildren">Number Of Children</string>
+    <string name="livingathome">Living At Home</string>
+
+    //Gallery Screen
+    <string name="upload">Upload</string>
+
+    //Oder Details Screen
+    <string name="premiumformonths">$300 premium for 6 months</string>
+
+    //Settings Screen
+    <string name="friendscanonltcontact">Friends Only View You</string>
+    <string name="messagefromunknow">Friends Only can Message</string>
+    <string name="onlineoroffline">Hide Online Status</string>
+    <string name="premiummemberscanview">Premium Can Only View</string>
+    <string name="commentbyfriends">Friends Only Can Comment</string>
+    <string name="trackyou">Share Location to others to view in Map</string>
+
+    //Payment Screen
+    <string name="noofdays">No Of Days</string>
+    <string name="validfrommonth">Valid From Month</string>
+    <string name="validfromyear">Valid From Year</string>
+    <string name="price">Price</string>
+
+    //Comment Screen
+    <string name="typemsghere">Type Message Here</string>
+    //Contact us Screen
+    <string name="ok">ok</string>
+    <string name="email">Email</string>
+
+    //About Us Screen
+    <string name="aboutus">About Us</string>
+
+    //Toast
+
+    //Chat Screen
+
+
+    //Home Screen
+
+
+    //Profile Update Screen
+
+
+    //Sign Up one Screen
+    <string name="username">User Name</string>
+
+
+    //Home Side Screen
+
+
+    <string name="Matches">Matches</string>
+    <string name="Near">Near By</string>
+    <string name="Message">Message</string>
+    <string name="Gallery">Gallery</string>
+    <string name="Premium">Premium</string>
+    <string name="View">View</string>
+    <string name="Flirt">Flirt</string>
+    <string name="Request">Request</string>
+    <string name="Favorites">Favorites</string>
+    <string name="Photo">Photo Like</string>
+    <string name="Settings">Settings</string>
+    <string name="Notification">Notification</string>
+    <string name="Help">Help</string>
+    <string name="FeedBack">FeedBack</string>
+    <string name="AboutUs">About Us</string>
+    <string name="Terms">Terms and Condition</string>
+    <string name="Privacy">Privacy and Policy</string>
+    <string name="splashone">As dating works on your profile is matched with that of another person, you ought to make efforts to create a good profile.
+</string>
+    <string name="splashtwo">The Single App is a location-based social search mobile app and Web application most often used as a dating service, that allows users to use a swiping motion to like (swipe right)</string>
+    <string name="splashthree">Signing into the dating app should be made easy. The whole process of registering into the app </string>
+
+
+    //xml resources
+    <string name="source1">hello, hello!</string>
+    <string name="source2">11:40</string>
+    <string name="source3">John Doe</string>
+    <string name="source4">hi man, how are you?</string>
+    <string name="source5">TextView</string>
+    <string name="source6">1</string>
+    <string name="source7"> </string>
+    <string name="source9">YYYY</string>
+    <string name="source10">Amount</string>
+    <string name="source11">Orderdate</string>
+    <string name="source12">ordertime</string>
+    <string name="source13">valid_upto_date</string>
+    <string name="source14">valid_upto_time</string>
+    <string name="source15">totaldays</string>
+    <string name="source16">paymentstatus</string>
+    <string name="source18">name</string>
+    <string name="source19">Comments</string>
+    <string name="source20">0 Comments</string>
+    <string name="source21">0 Likes</string>
+    <string name="source22">Chat</string>
+    <string name="desc">Imageview</string>
+
+
+
+
+
+
+</resources>

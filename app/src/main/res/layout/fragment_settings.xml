@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginScreen"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@+id/sw_viewprofile"
+                    android:fontFamily="@font/comicsansms3"
+                    android:text="@string/friendscanonltcontact" />
+
+                <Switch
+                    android:id="@+id/sw_viewprofile"
+                    android:layout_width="45dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+
+
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/comicsansms3"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@+id/sw_messagefromunknow"
+                    android:text="@string/messagefromunknow" />
+
+                <Switch
+                    android:id="@+id/sw_messagefromunknow"
+                    android:layout_width="45dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="18dp"
+
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/comicsansms3"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@+id/sw_onlineoroffline"
+                    android:text="@string/onlineoroffline" />
+
+                <Switch
+                    android:id="@+id/sw_onlineoroffline"
+                    android:layout_width="45dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_alignParentEnd="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/comicsansms3"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@+id/sw_premiummeber"
+                    android:text="@string/premiummemberscanview" />
+
+                <Switch
+                    android:id="@+id/sw_premiummeber"
+                    android:layout_width="45dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_alignParentEnd="true"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/comicsansms3"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@+id/sw_comment"
+                    android:text="@string/commentbyfriends" />
+
+                <Switch
+                    android:id="@+id/sw_comment"
+                    android:layout_width="45dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentEnd="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_toStartOf="@id/sw_trackyouvalue"
+                    android:fontFamily="@font/comicsansms3"
+                    android:text="@string/trackyou"
+                    />
+
+                <Switch
+                    android:id="@+id/sw_trackyouvalue"
+                    android:layout_width="45dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_alignParentEnd="true"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

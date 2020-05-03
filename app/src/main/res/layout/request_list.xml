@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/parentShimmerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/mainlay"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivImage"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/shimmer"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <ImageView
+            android:id="@+id/starImage"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="12dp"
+            android:contentDescription="@string/desc"
+            android:layout_alignParentStart="true"/>
+        <TextView
+            android:id="@+id/tvfirstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/ivImage"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="73dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/ivImage"
+            android:fontFamily="@font/comicsansms3"
+            android:gravity="start"
+            android:text=""
+            android:background="@color/shimmer"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tvcity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvfirstname"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@id/ivImage"
+            android:background="@color/shimmer"
+            android:fontFamily="@font/comicsansms3"
+            android:text=""
+            android:textSize="13sp" />
+
+
+
+
+
+          <Button
+              android:id="@+id/reject"
+              android:layout_width="25dp"
+              android:layout_height="25dp"
+              android:gravity="center"
+              android:layout_toStartOf="@+id/accept"
+              android:layout_alignParentTop="true"
+              android:layout_marginTop="15dp"
+              android:layout_marginEnd="30dp"
+              android:background="@drawable/decline">
+          </Button>
+
+
+
+
+            <Button
+                android:id="@+id/accept"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/accept" />
+
+
+
+    </RelativeLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</android.support.constraint.ConstraintLayout>

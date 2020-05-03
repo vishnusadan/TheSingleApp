@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="small_noti_id">5050</integer>
+    <integer name="big_noti_id">0202</integer>
+
+</resources>
